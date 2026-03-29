@@ -1,8 +1,10 @@
-# TL;DW
+# yt-multilingual-summariser
 
-> Transcribe, analyze, and summarize any YouTube video — across languages — in under two minutes.
+> Transcribe, analyze, and summarize any YouTube video — across languages — in under two minutes. For people with shrinking attention spans who'd rather read a sharp summary than sit through 40 minutes at 2x speed.
 
-TL;DW is a two-stage pipeline that extracts audio from YouTube, runs multilingual transcription via Groq Whisper, detects language distribution at the segment level, and produces a structured LLM summary in any target language. Designed for regional language content where auto-captions fail and code-switching is the norm.
+
+A two-stage pipeline that extracts audio from YouTube, runs multilingual transcription via Groq Whisper, detects language distribution at the segment level, and produces a structured LLM summary in any target language. Designed for regional language content where auto-captions fail and code-switching is the norm.
+
 
 ---
 
